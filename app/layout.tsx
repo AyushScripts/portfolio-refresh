@@ -14,7 +14,7 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
   title: "Ayush B.",
-  description: "Myself in a glimpse",
+  description: "Myself as a developer in a glimpse",
 };
 
 export default function RootLayout({
