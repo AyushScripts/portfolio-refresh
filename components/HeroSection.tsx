@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 const HeroSection = () => {
-  const {ref} = useSectionInView('Home')
+  const { ref } = useSectionInView("Home");
 
   const container = (delay: number) => ({
     hidden: { x: -100, opacity: 0 },
@@ -17,9 +17,7 @@ const HeroSection = () => {
   return (
     <section id="home" ref={ref} className="mt-28">
       <div className="container max-w-3xl flex flex-col gap-4">
-        <motion.div variants={container(0)}
-          initial="hidden"
-          animate="visible">
+        <motion.div variants={container(0)} initial="hidden" animate="visible">
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
@@ -68,6 +66,25 @@ const HeroSection = () => {
               player and a lover of all things tech.
             </li>
             <li className="text-primary font-normal">
+              📍 I have worked with clients in the{" "}
+              <a className="text-foreground" href="#">
+                US
+              </a>
+              ,{" "}
+              <a className="text-foreground" href="#">
+                UK
+              </a>
+              ,{" "}
+              <a className="text-foreground" href="#">
+                Mexico
+              </a>{" "}
+              and{" "}
+              <a className="text-foreground" href="#">
+                Ukraine
+              </a>
+              .
+            </li>
+            <li className="text-primary font-normal">
               ⚒️ I mainly work with{" "}
               <a className="text-foreground" href="https://nextjs.org">
                 NextJS
@@ -92,11 +109,7 @@ const HeroSection = () => {
           </p>
         </motion.div>
 
-        <motion.div
-          variants={container(1)}
-          initial="hidden"
-          animate="visible"
-        >
+        <motion.div variants={container(1)} initial="hidden" animate="visible">
           <SocialIcons />
         </motion.div>
       </div>
