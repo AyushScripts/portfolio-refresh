@@ -60,10 +60,10 @@ const HeroSection = () => {
                 programmer
               </a>
               , part time{" "}
-              <a className="text-foreground" href="https://chess.com/ayushchess04">
+              <a className="text-foreground" href="https://chess.com/member/ayushchess04">
                 chess
               </a>{" "}
-              player(top 1.5 percentile in the world) and a lover of all things tech.
+              player(top 1.5 percentile in the world!) and a lover of all things tech.
             </li>
             <li className="text-primary font-normal">
               📍 Worked with clients in the{" "}
