@@ -127,7 +127,7 @@ export const projects = [
   {
     id: 1,
     title: "DocuMate",
-    des: "An improved version of Google Docs.",
+    des: "A real-time collaborative editor. An improved version of Google Docs.",
     img: "/docu-mate.png",
     iconLists: [
       FaReact,
