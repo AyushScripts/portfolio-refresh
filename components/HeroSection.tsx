@@ -76,6 +76,10 @@ const HeroSection = () => {
               </a>
               ,{" "}
               <a className="text-foreground" href="#">
+                Australia
+              </a>
+              ,{" "}
+              <a className="text-foreground" href="#">
                 Mexico
               </a>{" "}
               and{" "}

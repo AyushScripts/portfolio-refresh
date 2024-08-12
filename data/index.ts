@@ -153,7 +153,7 @@ export const projects = [
     des: "Concept banking UI/UX built with Vanilla JS & Tailwind.",
     img: "/horizonpay.png",
     iconLists: [FaHtml5, IoLogoJavascript, RiTailwindCssFill],
-    link: "https://climacast-delta.vercel.app",
+    link: "https://horizonpay.netlify.app",
   },
   {
     id: 4,
