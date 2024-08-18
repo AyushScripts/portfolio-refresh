@@ -158,9 +158,17 @@ export const projects = [
   {
     id: 4,
     title: "Amaka Studio",
-    des: "Website for a influencer markerting studio. Additionally used SwiperJs.",
+    des: "Website for a influencer marketing studio. Additionally used SwiperJs.",
     img: "/Amaka.png",
     iconLists: [FaWebflow, LuFigma, IoLogoJavascript],
+    link: "https://more.amaka.studio",
+  },
+  {
+    id: 5,
+    title: "Bentley Dental Plaza",
+    des: "Website for a dental clinic in Australia. Webflow Template Customization",
+    img: "/Bentley.png",
+    iconLists: [FaWebflow, IoLogoJavascript],
     link: "https://more.amaka.studio",
   },
 ] as const;
