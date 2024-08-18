@@ -169,6 +169,6 @@ export const projects = [
     des: "Website for a dental clinic in Australia. Webflow Template Customization",
     img: "/Bentley.png",
     iconLists: [FaWebflow, IoLogoJavascript],
-    link: "https://more.amaka.studio",
+    link: "https://bentleyplazadental.com.au/",
   },
 ] as const;
