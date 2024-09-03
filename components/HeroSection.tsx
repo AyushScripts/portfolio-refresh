@@ -52,7 +52,7 @@ const HeroSection = () => {
               <a className="text-foreground" href="#">
                 Ayush Bhattacharjee
               </a>
-              , a 19 year-old college drop-out.
+              , a 20 year-old college drop-out.
             </li>
             <li className="text-primary font-normal">
               👩🏻‍💻 A self taught{" "}
@@ -63,7 +63,11 @@ const HeroSection = () => {
               <a className="text-foreground" href="https://chess.com/member/ayushchess04">
                 chess
               </a>{" "}
-              player(top 1.5 percentile in the world!) and a lover of all things tech.
+              player(top 1.5 percentile in the world!), passionate {" "}
+              <a className="text-foreground" href="https://en.wikipedia.org/wiki/Guitar">
+                guitarist
+              </a>{" "}
+               and a lover of all things tech.
             </li>
             <li className="text-primary font-normal">
               📍 Worked with clients in the{" "}
