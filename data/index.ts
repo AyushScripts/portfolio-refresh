@@ -9,6 +9,7 @@ import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiClerk, SiSentry } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { VscVscode } from "react-icons/vsc";
+import { BiLogoMongodb } from "react-icons/bi";
 
 export const testimonials = [
   {
@@ -121,11 +122,27 @@ export const skills = [
     name: "Sentry",
     icon: SiSentry,
   },
+  
 ] as const;
 
 export const projects = [
   {
     id: 1,
+    title: "SubEase (in progress)",
+    des: "SubEase helps you track and manage all your subscriptions in one place.",
+    img: "/subease-uc.png",
+    iconLists: [
+      FaReact,
+      RiNextjsFill,
+      RiTailwindCssFill,
+      BiLogoTypescript,
+      SiClerk,
+      BiLogoMongodb
+    ],
+    link: "https://subease.vercel.app",
+  },
+  {
+    id: 2,
     title: "DocuMate",
     des: "A real-time collaborative editor. An improved version of Google Docs.",
     img: "/docu-mate.png",
@@ -140,7 +157,7 @@ export const projects = [
     link: "https://docu-mate.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "ClimaCast",
     des: "A real-time weather forecasting app powered by OpenWeatherMap API.",
     img: "/climacast.png",
@@ -148,7 +165,7 @@ export const projects = [
     link: "https://climacast-delta.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "HorizonPay",
     des: "Concept banking UI/UX built with Vanilla JS & Tailwind.",
     img: "/horizonpay.png",
@@ -156,7 +173,7 @@ export const projects = [
     link: "https://horizonpay.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Amaka Studio",
     des: "Website for a influencer marketing studio. Additionally used SwiperJs.",
     img: "/Amaka.png",
@@ -164,7 +181,7 @@ export const projects = [
     link: "https://more.amaka.studio",
   },
   {
-    id: 5,
+    id: 6,
     title: "Bentley Dental Plaza",
     des: "Website for a dental clinic in Australia. Webflow Template Customization",
     img: "/Bentley.png",
